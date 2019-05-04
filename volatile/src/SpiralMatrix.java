@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,25 +22,35 @@ public class SpiralMatrix {
         String S = "";
         String a = "A";
         String b = "B";
-        if (A>B){
+        if (A > B) {
             for (int i = 0; i < A; i++) {
                 S = String.format ("%s%s", S, a);
-                if(i<B){
+                if (i < B) {
                     S = S + b;
                 }
             }
-        }else {
+        } else {
             for (int i = 0; i < B; i++) {
                 S = String.format ("%s%s", S, a);
-                if(i<A){
+                if (i < A) {
                     S = S + b;
                 }
             }
 
         }
-
-
         return S;
+    }
+
+    //最小票价
+    public int mincostTickets(int[] days, int[] costs) {
+        for(int i=0;i<days.length;i++){
+            if(days[i]+1==days[i+1]){
+
+
+            }
+        }
+
+        return 0;
     }
 
     public static void main(String[] args) {
