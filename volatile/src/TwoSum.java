@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class TwoSum {
 //给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
 //你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素
@@ -36,8 +38,22 @@ public class TwoSum {
         return l1;
     }
 
-
     public static void main(String[] args) {
+        List list=new ArrayList();
+        list.forEach(c->{
 
+        });
+
+        Thread01 thread01 = new Thread01();
+        Thread01 thread02 = new Thread01();
+        Thread01 thread03 = new Thread01();
+        thread01.start();
+        thread02.start();
+
+        for (int i = 1; i < 20; i++) {
+            System.out.println("2222");
+
+        }
+        thread03.start();
     }
 }
