@@ -1,3 +1,5 @@
+package ThreadTest;
+
 public class Thread02 implements Runnable {
      private   volatile  int sum=100;
 

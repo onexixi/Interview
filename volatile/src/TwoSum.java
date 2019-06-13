@@ -1,3 +1,5 @@
+import ThreadTest.Thread01;
+
 import java.util.*;
 
 public class TwoSum {
