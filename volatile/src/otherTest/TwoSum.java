@@ -1,3 +1,5 @@
+package otherTest;
+
 import ThreadTest.Thread01;
 
 import java.util.*;

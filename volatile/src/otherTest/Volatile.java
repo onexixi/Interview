@@ -1,3 +1,5 @@
+package otherTest;
+
 public class Volatile {
 
 //volatile线程可见性
