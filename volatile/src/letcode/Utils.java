@@ -26,17 +26,9 @@ public class Utils {
     //获取随机数组
     public static int[] getRandomList(int length) {
         int[] array=new int[length];
-        ArrayList a = new ArrayList<>(length);
-        for (int i = 0; i < length; i++) {
-            a.add((int) (Math.random() * 10000000 + 1));
+        for(int i=0;i<length;i++){
+            array[i]=(int) (Math.random() * 1000 + 1);
         }
-        Collections.sort (a);
-        a.forEach (s->{
-            int i=0;
-            array[i]= (int) s;
-            i++;
-        });
-        //System.out.println (Arrays.toString (a.toArray ()));
         return array ;
     }
 }
