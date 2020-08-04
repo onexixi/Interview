@@ -2,11 +2,10 @@ import com.sun.javafx.binding.StringFormatter;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Formatter;
 
 public class subLearn {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         String s="1.55555";
         System.out.println (s);
@@ -17,7 +16,7 @@ public class subLearn {
         formater.setMaximumFractionDigits(2);
         formater.setGroupingSize(0);
         formater.setRoundingMode(RoundingMode.FLOOR);
-        System.out.println(formater.format(null));
+        System.out.println(formater.format(11111));
 
 
     }

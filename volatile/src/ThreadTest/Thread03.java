@@ -18,6 +18,7 @@ public class Thread03 {
 }
 
 class Father extends Thread {
+    @Override
     public void run() {
         System.out.println("想抽烟叫儿子去买烟");
         Thread t = new Thread(new Son());
