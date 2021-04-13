@@ -1,6 +1,7 @@
 package otherTest;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 public class ListLearn {
@@ -16,6 +17,7 @@ public class ListLearn {
         HashSet set=new HashSet();
         HashSet set1=new LinkedHashSet();
         TreeSet treeSet=new TreeSet();
+        ConcurrentHashMap concurrentHashMap=new ConcurrentHashMap();
 
       //Z  System.out.println( Collections.binarySearch(arrayList,"AA"));
 

@@ -1,5 +1,7 @@
 package otherTest;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 public class equel {
 
 
@@ -17,5 +19,6 @@ public class equel {
         System.out.println(c.equals(a + b));
         System.out.println(g == (a + b));
         System.out.println(g.equals(a + b));
+//        ConcurrentHashMap
     }
 }
